@@ -121,6 +121,9 @@ main h1 {
 .sosialmedia a:hover {
   color: #00bc00;
 }
+.artis p {
+  font-weight: bold;
+}
 .detail_info {
   margin-top: 0.5rem;
   margin-right: 3rem;
@@ -137,7 +140,8 @@ label {
 }
 
 span {
-  font-size: 30px;
+  margin-bottom: 15px;
+  font-size: 25px;
   font-weight: 200;
   color: black;
   padding: 2px 0;
@@ -162,9 +166,44 @@ span {
   display: flex;
   flex-direction: column;
   padding: 0 12px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+.belitiket {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+.belitiket a {
+  padding: 10px 10rem;
+  border-radius: 5px;
+  color: #00bc00;
+  border: 1px solid black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.belitiket a:hover {
+  background-color: #00bc00;
+  color: white;
+}
+.deskripsi {
+  margin-left: 3rem;
+  width: 50rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  border-top: 2px solid black;
+}
+.deskripsi h2 {
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.deskripsi p {
+  line-height: 27px;
+}
+.syarat {
+  margin-top: 20px;
+}
+.syarat p {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* ----Footer---- */

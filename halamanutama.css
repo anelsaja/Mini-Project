@@ -251,6 +251,10 @@ footer {
   height: 30px;
   margin-left: 10px;
 }
+.sosmed a img:hover {
+  border: none;
+  box-shadow: 1px 1px 5px black;
+}
 .copyright {
   display: flex;
   justify-content: space-between;

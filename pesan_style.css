@@ -54,7 +54,7 @@ header {
 /* ----Awalan---- */
 h5 {
   margin-left: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .awalan {
   margin-left: 2rem;
@@ -76,7 +76,9 @@ h5 {
 
 /* ----judul---- */
 .judul {
+  margin-top: 1.5rem;
   margin-left: 3rem;
+  text-transform: uppercase;
 }
 
 /* PEMESANAN */
@@ -122,7 +124,7 @@ legend {
 
 /* ----Bukti transaksi---- */
 .kwitansi {
-  margin: 0rem 3rem 2rem 65rem;
+  margin: 0rem 3rem 5rem 65rem;
   padding: 10px;
   background-color: #e8f9fd;
   border-radius: 10px;
@@ -183,9 +185,9 @@ legend {
 
 /* TIKET SHOW */
 #jenis_tiket {
-  margin-bottom: 3rem;
-  margin-top: 5rem;
-  margin-left: 16rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
   color: black;
 }
 .vip_header {
@@ -201,7 +203,7 @@ legend {
 .vip_body {
   background-color: rgba(128, 0, 128, 0.39);
   display: flex;
-  gap: 50px;
+  gap: 250px;
 }
 .vip_body h2 {
   text-transform: uppercase;
@@ -216,7 +218,7 @@ legend {
 .reguler_body {
   background-color: rgba(128, 0, 128, 0.39);
   display: flex;
-  gap: 50px;
+  gap: 250px;
 }
 .reguler_body h2 {
   text-transform: uppercase;
@@ -260,6 +262,10 @@ footer {
   width: 30px;
   height: 30px;
   margin-left: 10px;
+}
+.sosmed a img:hover {
+  border: none;
+  box-shadow: 1px 1px 5px black;
 }
 .copyright {
   display: flex;

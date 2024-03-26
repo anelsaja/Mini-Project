@@ -55,7 +55,7 @@ header {
 /* ----Awalan---- */
 h5 {
   margin-left: 3rem;
-  margin-top: 25px;
+  margin-top: 1rem;
 }
 .awalan {
   margin-left: 2rem;
@@ -85,7 +85,7 @@ main h1 {
   margin-left: 3rem;
   margin-right: 2rem;
   float: left;
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem 5rem 1rem 1rem;
   border-radius: 10px;
   background-color: #e8f9fd;
   border: none;
@@ -95,14 +95,14 @@ main h1 {
   float: right;
 }
 .event-banner img {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 12px;
   margin-right: 2rem;
 }
 .event .penyelenggara {
   float: right;
-  width: 28em;
+  width: 25em;
 }
 .event .penyelenggara img {
   margin-top: 2px;
@@ -123,6 +123,7 @@ main h1 {
 }
 .artis p {
   font-weight: bold;
+  font-size: 22px;
 }
 .detail_info {
   margin-top: 0.5rem;
@@ -169,7 +170,7 @@ span {
 }
 .belitiket {
   margin-top: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
 }
 .belitiket a {
   padding: 10px 10rem;
@@ -185,13 +186,14 @@ span {
 }
 .deskripsi {
   margin-left: 3rem;
-  width: 50rem;
+  width: 58rem;
   margin-right: 3rem;
   margin-bottom: 3rem;
   border-top: 2px solid black;
+  float: left;
 }
 .deskripsi h2 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -204,6 +206,28 @@ span {
 .syarat p {
   text-transform: uppercase;
   font-weight: bold;
+}
+.venue {
+  padding-top: 5rem;
+}
+.venue h2 {
+  text-transform: uppercase;
+}
+.layout {
+  margin: 1rem 12rem 65rem 63rem;
+  float: both;
+}
+.layout img {
+  margin-top: 2rem;
+  width: 25.5rem;
+  height: 25.5rem;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+.layout img:hover {
+  transform: scale(1.2);
+  position: clear;
 }
 
 /* ----Footer---- */
@@ -243,6 +267,10 @@ footer {
   width: 30px;
   height: 30px;
   margin-left: 10px;
+}
+.sosmed a img:hover {
+  border: none;
+  box-shadow: 1px 1px 5px black;
 }
 .copyright {
   display: flex;

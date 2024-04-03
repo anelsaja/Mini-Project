@@ -16,6 +16,7 @@ header {
   padding-top: 6px;
   padding-bottom: 6px;
   background-color: #811001;
+  z-index: 1;
 }
 .logo1 img {
   margin-left: 3rem;
@@ -56,6 +57,13 @@ header {
 h5 {
   margin-left: 3rem;
   margin-top: 1rem;
+}
+h5 a {
+  text-decoration: none;
+  color: black;
+}
+h5 a:hover {
+  text-decoration: underline;
 }
 .awalan {
   margin-left: 2rem;

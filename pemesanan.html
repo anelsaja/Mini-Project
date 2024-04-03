@@ -9,32 +9,41 @@
   </head>
   <body>
     <!-- HEADERNYA -->
-    <header>
-      <div class="logo1">
-        <a href="#">
-          <img src="img/logo.png" alt="logo" />
-        </a>
+    <div class="head">
+      <header>
+        <div class="logo1">
+          <a href="#">
+            <img src="img/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="website">
+          <a href="#">
+            <h1>OJINK</h1>
+          </a>
+        </div>
+        <div class="cari">
+          <input
+            type="text"
+            placeholder="Cari Event, Orkes, dll"
+            class="inputcari"
+          />
+          <input type="date" class="inputcari" />
+        </div>
+        <div class="login">
+          <a href="detail.html">LOGIN</a>
+        </div>
+      </header>
+      <div class="timer">
+        <p>Anda memiliki waktu 15 menit untuk menyelesaikan pemesanan ini!</p>
       </div>
-      <div class="website">
-        <a href="#">
-          <h1>OJINK</h1>
-        </a>
-      </div>
-      <div class="cari">
-        <input
-          type="text"
-          placeholder="Cari Event, Orkes, dll"
-          class="inputcari"
-        />
-        <input type="date" class="inputcari" />
-      </div>
-      <div class="login">
-        <a href="detail.html">LOGIN</a>
-      </div>
-    </header>
+    </div>
 
     <!-- ----Awalan---- -->
-    <h5>Halaman Utama > Detail Orkes > Pemesanan</h5>
+    <h5>
+      <a href="halamanutama.html">Halaman Utama</a> >
+      <a href="detail.html">Detail Orkes</a> >
+      <a href="pemesanan.html">Pemesanan</a>
+    </h5>
     <div class="awalan">
       <div class="login">
         <a href="detail.html">Kembali</a>
@@ -157,6 +166,10 @@
             <input type="number" min="1" max="10" />
             <br />
           </fieldset>
+          <div class="input">
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </div>
         </form>
       </div>
       <div class="data_pemesan">

@@ -16,6 +16,7 @@ header {
   padding-top: 6px;
   padding-bottom: 6px;
   background-color: #811001;
+  z-index: 1;
 }
 .logo1 img {
   margin-left: 3rem;

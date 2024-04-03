@@ -54,7 +54,7 @@ header {
 
 /* ----Main---- */
 main {
-  margin: 3rem 3rem 20rem 3rem;
+  margin: 3rem 3rem 3rem 3rem;
   border-radius: 42px;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -62,6 +62,39 @@ main {
   box-shadow: 1px 1px 5px black;
   text-align: center;
   height: 100%;
+}
+.awalan {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.awalan .login a {
+  color: #04ec04;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.awalan .login a:hover {
+  background-color: #00bc00;
+  color: white;
+}
+.print {
+  margin-left: 42.5%;
+  margin-top: 2rem;
+  margin-bottom: 9.4rem;
+}
+.print .login a {
+  color: #04ec04;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.print .login a:hover {
+  background-color: #00bc00;
+  color: white;
 }
 /* ----Footer---- */
 footer {
